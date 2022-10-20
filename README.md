@@ -1,15 +1,18 @@
 ## Q + A
 1. How do we assign a value to a variable?
+//- by let or const variables no var
 2. How do we change the value of a variable?
+//-You equal the variable to something.
 3. How do we assign an existing variable to a new variable?
+//- var = var, 
 4. Remind me, what are declare, assign, and define?
-
+// to specify a variable 
 ### Research 
 
 5. What is pseudocoding and why should you do it?
-
+/ to apply define instruction for a human understanding. better to understand your code.
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
-
+/- 30% thinking, 70% coding.
 ## Strings
 
 **For all other questions that involve writing code, you can solve them via the app.js folder under it's respectice section** 
@@ -21,6 +24,7 @@
 - Change the value of secondVariableto any string.
 
 What is the value of firstVariable?
+/- firstVariable is equal to the secondvariable which equals "hello hello world."
 
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
