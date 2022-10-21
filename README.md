@@ -134,8 +134,12 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
+//Elements
 Do Arrays guarantee those things will be in order?
+// yes, non
 What real-life thing could you model with an array?
+it's anything that has a list of data/ information. " menu, car parking lot. 
+
 
 
 
@@ -149,18 +153,25 @@ Create an array that contains three quotes and store it in a variable called quo
 Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
+randomThings.[0];
 
 - Change the value of `"Hello"` to `"World"`
+randomThings[2] = 'world';
 
-- Check the value of the array to make sure it updated the array using `console.log()`
+- Check the value of the array to make sure it updated the array using `console.log(randomThings); `
 
 
 ### D. Change values
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
 What would you write to access the 3rd element of the array?
+ourClass[2];
 Change the value of "Github" to "Octocat"
+ourClass[4] = "octocat"
 Add a new element, "Cloud City" to the array
+
+ourClass.push('Cloud city');
+ourClass.unshift('cloud city');
 
 
 
@@ -170,7 +181,9 @@ Note: You don't really need `.splice()` for these. You could use it, but there a
 
 Given the following array: `const myArray = [5, 10, 500, 20]`
 
+
 - Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
+
 - Remove the 5from the beginning of the array.
 - Add the string "Bob Marley"to the beginning of the array.
 - Remove the string of your choice from the end of the array.
