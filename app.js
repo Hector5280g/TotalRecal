@@ -184,10 +184,139 @@
 // console.log(`${this.name} is cool! `);
 
 //volume 
-let calculateCube = (length, width, height) => {
+// let calculateCube = (length, width, height) => {
 
-    let volume = length * width * height;
-    console.log(`this cube has the volume of ${volume}`);
+//     let volume = length * width * height;
+//     console.log(`this cube has the volume of ${volume}`);
+
+// }
+// calculateCube(20,20,20);
+
+//vowel
+
+// function isVowel(letter){
+// let vowel = ['a','e','i','o','u']
+// for( let i = 0; i<vowel.length; i++){
+//     if (letter === vowel[i]){
+//         return true;
+    
+//     }
+// }
+// return false;
+
+// }
+// console.log(`e is a vowel? || ${isVowel('e')}`);
+
+//Get Two lengths 
+
+//getTwoLengths simple
+// function getTwoLengths(string1, string2){
+//     return [string1.length, string2.length];
+// }
+
+// multi lenghts
+// function twoLengths(str1, str2,) {
+//     let arr = [];
+//     for (var i = 0; i < arguments.length; i++) {
+//       arr.push(arguments[i].length);
+//     }
+  
+//     return arr;
+//   }
+  
+//   console.log(twoLengths("hellooooooooooooooooooo", "okayyyyyyyyy"," bakbfskjahbkfsa", "fhakhfdksahfiuehsaiufhkahbzskjbfakjsf"));
+
+//another solution 
+// function getMultiple (strings){
+//     const output = [];
+//     for(let string of strings){
+//         output.push (string.length);
+//     }return output;
+// }
+
+// maxofthree
+
+// function maxOfThree(a, b, c) {
+//     if ((a >= b) && (a >= c)) { 
+//         return a;
+//     } else if ((b >= a) && (b >= c)) {
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+
+// console.log(maxOfThree(343,35124,42));
+
+//longest word
+
+// function printLongestWord(arr) {
+//     let aWord = ''
+//     for (let i = 0; i < arr.length; i++) {
+
+//         if (aWord.length < arr[i].length) {
+//             aWord = arr[i]
+//         }
+//     }
+//     return aWord
+//  }
+//  console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+//Objects 
+
+//make a user object 
+
+let userOne = {
+    name: "hector",
+    email: "hsdkfhdkh@gmail.com",
+    age: 6,
+    purchased: [],
+
+
 
 }
-calculateCube(20,20,20);
+userOne.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: 'Denver colorado',
+    purchased: [],
+
+}
+userOne.age= ++ userOne.age;
+userOne.email = "yololo@gmail.com";
+userOne.location = ('denver colorado');
+userOne.purchased.push('carbs', 'peace of mind', ' Merino jodhpurs');
+userOne.friend.age = 55;
+userOne.friend.purchased.push('one ring', 'A latte');
+
+for(let i = 0; i < userOne.purchased.length; i++) {
+console.log(userOne.purchased[i])
+}
+for(let i = 0; i < userOne.friend.purchased.length; i++) {
+    console.log(userOne.friend.purchased[i])
+    }
+
+
+
+console.log(userOne.friend.name);
+console.log(userOne.friend.location);
+console.log(userOne.friend.purchased[1]);
+console.log(userOne);
+
+
+//Functionnnnnnn
+
+function updateUser() {
+    userOne.age = ++userOne.age;
+   userOne.name.toUpperCase();
+   console.log(userOne.name.toUpperCase());
+}
+updateUser()
+
+//
+
+function oldAndLoud(person) {
+    person.age = ++ person.age ;
+    console.log(person.name.toUpperCase())
+}
+oldAndLoud(userOne.friend)
